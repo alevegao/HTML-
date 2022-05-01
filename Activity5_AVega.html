@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<!-- this is my own work. -->
+
+<head>
+	<title>Sale!</title>
+	
+</head>
+<body bgcolor= "lightcoral">		
+
+<h1 style="background-color:navajowhite; text-align:center;"> Shoe sales</h1>
+
+
+<center>
+<a href="#Home">Home</a> &nbsp; &nbsp; &nbsp;
+<a href="#Register">Register</a> &nbsp; &nbsp; &nbsp;
+<a href="#Items-for-Sale"> Items-for-Sale</a> &nbsp; &nbsp; &nbsp;
+<a href="#Detail">Detail</a> &nbsp; &nbsp; &nbsp;
+<a name="Home"></a>
+</center>
+
+<h1 id="Register">Register</h1>
+
+<form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+
+<table>
+<h2>Username: <input type="text" name="username"/></h2>
+
+</br>
+</br> 
+</br>
+
+<h2>E-mail: <input type="text" name="e-mail"/></h2>
+
+</br> 
+</br> 
+</br>
+
+<h2>Password: <input type="password" name="password"/></h2>
+
+</br>
+</br> 
+</br>
+
+<h2>Confirm Password:<input type="password" name="confirm password"/></h2>
+
+</br>
+</br> 
+</br>
+</br> 
+</br>
+
+<h2>Desired Shoe:</h2>
+Nike <input type="checkbox" name="Nike"/> <br/>
+Jordan <input type="checkbox" name="Jordan"/> <br/> 
+New Balance <input type="checkbox" name="New Balance"/> <br/>
+Adidas <input type="checkbox" name="Adidas"/> <br/>
+
+ 
+</br>
+</br> 
+</br>
+</br> 
+</br>
+
+Free Shipping <input type="radio" name="Shipping" value="Free" />
+Express Shipping <input type="radio" name="Shipping" value="Express" />
+Overnight Shipping <input type="radio" name="Shipping" value="Overnight" />
+
+</br>
+</br> 
+</br>
+</br> 
+</br>
+ 
+
+State: <select name="State"/>
+<option>AL</option>
+<option>AK</option>
+<option>AZ</option>
+<option>AR</option>
+<option>CA</option>
+<option>CO</option> 
+<option>CT</option>
+<option>DE</option>
+<option>FL</option>
+<option>GA</option>
+<option>HI</option>
+<option>ID</option>
+<option>Other</option>
+
+ 
+</select>
+ 
+<h2>Zip code: <input type="text" maxlength="5"/></h2>
+
+
+<h2><input type="submit" value="Click to submit" /></h2>
+<h2><input type="reset" value="Cancel" /></h2>
+
+</form>
+</table>
+
+<h1 id="Items-for-Sale">Items-for-Sale</h1>
+
+ <ul class="breadcrumbs">
+<li><a href="#Home">Home</a> &nbsp; &nbsp; &nbsp;</li>
+<li><a href="#Register">Register</a> &nbsp; &nbsp; &nbsp;</li>
+<li><a href="#Detail">Detail</a> &nbsp; &nbsp; &nbsp;</li>
+<a name="Home"></a>
+</ul>
+
+
+<table cellspacing="40">
+<tr style="background-color:navajowhite;"><th>Shoe</th><th>Photo</th>
+<th>Description</th><th>Price</th></tr>
+<tr><td><a href="#Nike">Nike</a></td><td><img src ="blazer.jpg" width="300" height="150"/></td><td>Blazer Mid 77 Vintage, Zig-zag Swoosh</td><td>$110</td></tr>
+<tr><td><a href="#Jordan">Jordan</a></td><td><img src ="air.jpg" width="300" height="150"/></td><td>Air Jordan 1 High Bordeaux </td><td>$170</td></tr>
+<tr><td><a href="#New Balance">New Balance</a></td><td><img src ="nbb.jpg" width="300" height="150"/></td><td>New Balance 557 multi-color</td><td>$100</td></tr>
+<tr><td><a href="#Adidas">Adidas</a></td><td><img src ="ub.jpg" width="300" height="150"/></td><td>Ultra Boost rainbow colorway</td><td>$150</td></tr>
+</table>
+
+</br>
+</br> 
+</br>
+</br> 
+</br>
+</br>
+</br>
+</br>
+</br> 
+</br>
+</br>
+
+
+<h1 id="Detail">Detail</h1>
+ <ul class="breadcrumbs">
+<li><a href="#Home">Home</a> &nbsp; &nbsp; &nbsp;</li>
+<li><a href="#Register">Register</a> &nbsp; &nbsp; &nbsp;</li>
+<li><a href="#Items-for-Sale"> Items-for-Sale</a> &nbsp; &nbsp; &nbsp;</li>
+<a name="Home"></a>
+</ul>
+
+
+<table cellspacing="40">
+<tr><th>Brand</th><th>Photo</th></tr>
+<tr><td><h2 id="Nike">Nike</h2></tr>
+<td><img src ="blazer1.jpg" width="700" height="500"/></td>
+
+<td><img src ="blazer2.jpg" width="700" height="500"/></td>
+
+<tr><th colspan="2">Following the classic silhouette, the upper is wrapped in a smooth White leather and slight Grey suede that emphasizes the toe and mudguards. 
+The understatement of the shoe gives way to the centrepiece of the sneaker, highlighting the Bright Crimson knotted zig zag stitched Swoosh on the side panels.</th></tr>
+ 
+ 
+ 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<tr><td><h2 id="Jordan">Jordan</h2></tr>
+<td><img src ="air1.jpg" width="700" height="500"/></td>
+
+<td><img src ="air2.jpg" width="700" height="500"/></td>
+
+<tr><th colspan="2">The Air Jordan 1 Retro High OG 'Bordeaux' dresses the archetypal silhouette in a white leather upper with vinous leather
+ overlays at the forefoot, heel and collar.
+ Similar to the CO.JP 'Midnight Navy' colorway, the sneaker is accented with a
+ metallic silver Swoosh and a jeweled Wings logo on the lateral ankle.</th></tr>
+
+ </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+ 
+<tr> <td><h2 id="New Balance">New Balance</h2></tr>
+
+<td><img src ="nb1.jpg" width="700" height="500"/></td>
+
+<td><img src ="nb2.jpg" width="700" height="500"/></td>
+ 
+ <tr><th colspan="2">The Aimé Leon Dore x New Balance 550 'Green Yellow' is taken from a larger capsule collection developed in partnership with the
+ New York-based menswear label. Reintroduced to the public by Aimé Leon Dore in 2020,
+ the late '80s hoops shoe returns less than a year later in a traditional white leather build with contrasting green and yellow accents.</th></tr>
+ 
+ </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+ 
+<tr> <td><h2 id="Adidas">Adidas</h2></tr>
+ <td><img src ="boost1.jpg" width="700" height="500"/></td>
+
+<td><img src ="boost2.jpg" width="700" height="500"/></td>
+
+<tr><th colspan="2">Ultra Boost 3.0 combines a multicolor Primeknit upper with a solid black cage, black heel counter,
+ white boost Midsole, and black Continental Rubber outsole..</th></tr>
+
+ </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+</table>
+
+
+</br>
+</br> 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+</body>
+<p>Nike: $110 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact---> <a href="tel:+183245551150"> (832) 455-5511</a>
+<p>Jordan: $170 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact---> <a href="tel:+183245551150"> (832) 455-5511</a>
+<p>New Balance: $100 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact---> <a href="tel:+183245551150"> (832) 455-5511</a>
+<p>Adidas: $150 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Contact---> <a href="tel:+183245551150"> (832) 455-5511</a>
+
+<footer><h4>
+Designed by Alejandro Vega &#8226 1 April 2022
+</footer></h4>		
+</html>
